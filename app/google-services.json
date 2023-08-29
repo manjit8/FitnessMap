@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824208379464",
+    "project_id": "fitnessmap-ec1bf",
+    "storage_bucket": "fitnessmap-ec1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824208379464:android:cd68da1a061d3cc311127d",
+        "android_client_info": {
+          "package_name": "com.example.fitnessmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824208379464-loa97k154gnfvqri4h1vhia09s028uk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_EUrn6BWp7KkSaMg05gD2qUTQdjuNFYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824208379464-loa97k154gnfvqri4h1vhia09s028uk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

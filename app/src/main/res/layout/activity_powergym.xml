@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".powergym">
+
+<ImageView
+    android:layout_width="199dp"
+    android:layout_height="190dp"
+    android:src="@drawable/power1"/>
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="181dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/power2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:text="POWER GYM"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Well-Being Yoga Meditation
+
+                                                   4.9.(50) · 1.3 km
+
+                                                          Yoga studio · Gorakhpur, Uttar Pradesh
+
+                                                Closed ⋅ Opens 5:01AM Wed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="272dp"
+        android:text="Owner Name  -  Alex
+          Phone no - 1122125825
+
+              Trainer Name - Pit
+         Phone -   4585758578
+" />
+
+</RelativeLayout>

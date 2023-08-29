@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+
+    tools:context=".gym">
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:id="@+id/profile_btn"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <ImageButton
+        android:id="@+id/location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_location_on_24" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="0dp"
+        android:padding="5sp"
+        android:queryHint="Gym name"
+        android:queryBackground="@android:color/transparent"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchView">
+
+
+    </SearchView>
+
+
+    <ImageButton
+        android:id="@+id/power_btn"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="162dp"
+        android:src="@drawable/gym4" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="-39dp"
+        android:text="POWER GYM"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="0dp"
+        android:text="GYMS COMING SOON : KHARADI – PUNE | CHAKAN - PUNE| DIPHU - ASSAM | KATHMANDU - NEPAL | KALYAN - MAHARASHTRA | NOIDA SECTOR 51" />
+
+
+    <ImageButton
+        android:id="@+id/lucky_btn"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="278dp"
+        android:src="@drawable/gym2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="52dp"
+        android:text="LUCKY GYM"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="121dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="263dp"
+        android:text="Azad Nagar, Rustampur, Gorakhpur - 273010, Near Pairadic Lown (Map)Gyms
+Women Gyms
+Men Gyms
+Personal Gym Trainers
+Aerobic Classes" />
+
+    <ImageButton
+        android:id="@+id/iron_btn"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="76dp"
+        android:src="@drawable/gym5" />
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-146dp"
+        android:layout_marginBottom="159dp"
+        android:text="Iron Gym"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="131dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="48dp"
+        android:text=" 2/86, Baldev Singh Arya Marg, near Mithaiwala chowraha, Vijay Khand, Ujariyaon, Vijay Khand 2, Gomti Nagar, Lucknow, Uttar Pradesh 226010" />
+
+
+    <ImageButton
+        android:id="@+id/payment_btn"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="95dp"
+        android:src="@drawable/ic_baseline_payment_24" />
+
+</RelativeLayout>
+
+
